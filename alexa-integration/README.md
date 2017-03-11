@@ -6,13 +6,13 @@ Every time Alexa will be asked "Alexa, ask kettle to start boiling", the lambda 
 
 First of we need to create a devide on the relayr cloud. Since it is not a real device - we set up a custom model. Login to your relayr developer account, go to the tab "models" on the left side. Click "add new model" and enter the following:
 
-<ADD SCREENSHOTS HERE>
+![screenshot](assets/new_model_relayr.png)
 
-Once this is done, we can create or fake device. Click on add new device and you can click finish right away without changing anything. Give your device a name and now your device should be created.
+You will have to fill in a website as well for some reason - this can be a made up URL as well. Once this is done, we can create or fake device. Click on add new device and you can click finish right away without changing anything. Give your device a name and now your device should be created.
 
 If you click on the settings wheel in the upper right corner as you see here:
 
-<ADD SCREENSHOT>
+![screenshot2](assets/kettle_device_relayr.png)
 
 You can find the device ID and credentials of your device. We will need these for the next step.
 
