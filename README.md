@@ -8,32 +8,31 @@ After **months** of extensive market research, we discovered that **no-one ever*
 
 ![](./assets/market_research_01.png)
 
-These docs are a **work in progress**, come back soon for more swag.
+These docs are a **work in progress**, come back soon for more *swag*.
 
 Meanwhile, you can listen to the song that inspired us...
 
 [![ScreenShot](http://img.youtube.com/vi/SYVLxLvdhpY/0.jpg)](https://www.youtube.com/watch?v=SYVLxLvdhpY)
 
-## Gateway Setup
-
-### Configuration
- 
-To SSH in the gateway as `root`, use the following command:  
-`$ ssh root@172.22.0.146`
-
-Default password: `root`
-
-Hostname: `gateway-to-hell`
-
-**TIP:** *For Satan's sake, change the default password ASAP!*
-
 ## Intel Edison Setup
 
 -----WIP----
 
-## Genuino 101 Setup
+## "Teabot" for Alexa / Echo
 
 -----WIP----
+
+## "Teabot" for Slack
+
+-----WIP----
+
+## Presenting the Project
+
+Here we are presenting the project at the hackathon!
+
+![](./assets/presentation_emelie.jpeg)
+
+![](./assets/presentation_jaime.jpeg)
 
 ## License
 
