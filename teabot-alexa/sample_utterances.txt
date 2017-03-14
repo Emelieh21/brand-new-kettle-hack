@@ -1,0 +1,4 @@
+KettleIntent {itemOne}
+KettleIntent for {itemOne}
+KettleIntent to {itemOne}
+KettleIntent {itemOne} the kettle
