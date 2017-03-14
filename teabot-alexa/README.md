@@ -14,7 +14,7 @@ Go to [AWS lambda](https://aws.amazon.com/console/) and log in to your account. 
 
 ![screenshot1](assets/upload_lambda_function.png)
 
-This script makes a http POST request with a "true" value if you tell Alexa _"Ask the kettle to boil/start boiling/start"_ - and a "false" value when you say _"Ask the kettle to stop/abort/stop boiling"_. These values will be sent to the virtual [devices you have set up in the cloud](https://github.com/Emelieh21/brand-new-kettle-hack/setup_devices_relayr_cloud.md). 
+This script makes a http POST request with a "true" value if you tell Alexa _"Ask the kettle to boil/start boiling/start"_ - and a "false" value when you say _"Ask the kettle to stop/abort/stop boiling"_. These values will be sent to the virtual [devices you have set up in the cloud](https://github.com/Emelieh21/brand-new-kettle-hack/blob/master/setup_devices_relayr_cloud.md). 
 
 ### Step 2: Create an Alexa skill to interact with your lambda function
 
