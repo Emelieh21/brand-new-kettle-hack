@@ -18,7 +18,7 @@ Since it is not a real device - we set up a custom model. Login to your [relayr 
 
 ![screenshot](assets/new_model_relayr.png)
 
-We named our model _Kettle_ and set the meaning to _kettle_ as well, you can of course choose any name you like (but then make sure to change the python scripts accordingly later). For the Value type, choose **Boolean** (we will be sending True's and Falses). You will have to fill in a website as well for some reason - this can be a fake URL as well (www.yeah.yeah for example). When you're done click **save model**.
+We named our model _Kettle_ and set the meaning to _kettle_ as well, you can of course choose any name you like (but make sure to change the python scripts accordingly later). For the Value type, choose **Boolean** (we will be sending True's and Falses). You will have to fill in a website as well for some reason - this can be a fake URL as well (www.yeah.yeah for example). When you're done click **save model**.
 
 ##### Step 2: Create a device
 
