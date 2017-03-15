@@ -10,11 +10,11 @@ To make an interaction between Alexa/SlackBot and the kettle possible - we set u
 
 ### Create a virtual "kettle" device on the Relayr cloud
 
-We need to create a devide on the relayr cloud for Alexa/our SlackBot to send triggers to. This means: instead of a sensor sending data input to the relayr dashboard - the data input will come from Alexa/our SlackBot. 
+We need to create a devide on the relayr cloud for Alexa/our SlackBot to send triggers to. This means: instead of a sensor sending data input to this device on the relayr dashboard - the data input will come from Alexa/our SlackBot. 
 
 ##### Step 1: Create a custom model
 
-Since it is not a real device - we set up a custom model. Login to your [relayr developer account](developer.relayr.io), go to the tab "models" on the left side. Click "add new model", click on the + sign in the "readings" box and enter the following:
+Since it is not a real device - we set up a custom model. Login to your [relayr developer account](https://developer.relayr.io), go to the tab "models" on the left side. Click "add new model", click on the + sign in the "readings" box and enter the following:
 
 ![screenshot](assets/new_model_relayr.png)
 
