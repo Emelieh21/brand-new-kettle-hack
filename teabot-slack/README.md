@@ -20,7 +20,7 @@ _@teabot stop boiling_
 
 _@teabot is the kettle boiling?_
 
-Make sure you have your devices setup in the cloud - as explained [here](brand-new-kettle-hack/setup_devices_relayr_cloud.md). You will need to fill in your relayr **device ID** and **API token** in the teabot.py file and save it. Run:
+Make sure you have your devices setup in the cloud - as explained [here](https://github.com/Emelieh21/brand-new-kettle-hack/blob/master/setup_devices_relayr_cloud.md). You will need to fill in your relayr **device ID** and **API token** in the teabot.py file and save it. Run:
 
 `$ python teabot.py`
 
