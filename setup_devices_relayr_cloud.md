@@ -33,7 +33,7 @@ You can find the device ID and credentials of your device. For the following ste
 * the **device ID**
 * your **relayr token**: you can find this by going to _Account_ in relayr.
 
-To test whether your virtual device is working - you can fill in your relayr token and device ID in the [python_http_post_request.py](brand-new-kettle-hack/python-scripts/python_http_post_request.py) file and run it:
+To test whether your virtual device is working - you can fill in your relayr token and device ID in the [python_http_post_request.py](https://github.com/Emelieh21/brand-new-kettle-hack/blob/master/python-scripts/python_http_post_request.py) file and run it:
 
 `$ python python_http_post_request.py`
 
