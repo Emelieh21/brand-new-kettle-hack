@@ -42,4 +42,5 @@ Thumbs.db
 temp/*
 temp*
 assets/clean_images/
+assets/raw_images/
 .idea/
