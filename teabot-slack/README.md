@@ -2,10 +2,7 @@
 
 Wouldn't it be nice to be able to chat with your kettle via Slack?
 
-
 ![schema](assets/slack.png)
-
-
 
 ### Step 1: Follow the tutorial
 

@@ -1,12 +1,12 @@
 These docs are a **work in progress**, come back soon for more *swag*!
 
---
+---
 
 # Teabot
 
 ### By Team _Brand New Kettle-hack_
 
-*A fun weekend project by Emelie Hofland and Jaime González-Arintero. Created during the [Intel IoT Solutions Hackathon in Fürth](https://iotevents.intel.com/Furth2017/), on March 11 - 12, 2017.*
+*A fun weekend project by Emelie Hofland and Jaime González-Arintero. Created during the [Intel IoT Solutions Hackathon in Fürth](https://software.intel.com/en-us/blogs/2017/02/03/intel-iot-solutions-hackathon), on March 11 - 12, 2017.*
 
 Pictures and additional media of the **project presentation at the hackathon** can be found in [this folder](./hackathon).
 
@@ -33,6 +33,7 @@ The following hardware is required:
 * Electric jug kettle. For this project we used an affordable model from the brand Tristar, like [this one](http://www.tristar.eu/en/Home_Appliances/Breakfast___Brunch/Jug_Kettles/WK-1337/3/6669).
 * [Intel® Edison Arduino Breakout Kit](https://www.arduino.cc/en/ArduinoCertified/IntelEdison#toc3)
 * 3-5V / 230V relay module (like [this Grove one](https://www.seeedstudio.com/Grove-Relay-p-769.html)). For this project we used the [relay shield for the WeMos D1 mini](https://www.aliexpress.com/store/product/Relay-Shield-for-WeMos-D1-mini-button/1331105_32596395175.html?spm=2114.12010608.0.0.JXGY1P).
+* An [Amazon Echo](http://a.co/9imYj0b) (or an [Echo Dot](http://a.co/4MYRdzt))
 * Assorted jumper wires.
 * Cable cutter.
 * Small flathead screwdriver.

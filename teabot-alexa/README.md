@@ -1,8 +1,8 @@
 # Triggering the Kettle via Alexa
 
+## Introduction
+
 We want to be able to ask Alexa: _"Alexa, ask Teabot to start boiling"_ and subsequently the kettle should magically go on (we picked the name Teabot for our Alexa skill - of course you can name it any way you please).  Therefore, we need Alexa to send a trigger to the kettle each time we want it to start or stop boiling. For this we use [AWS lambda](https://aws.amazon.com/console/) and the [Alexa developer console](https://developer.amazon.com/). 
-
-
 
 ![schema](assets/alexa.png)
 
