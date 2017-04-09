@@ -1,18 +1,16 @@
-# Setting up a device in the relayr cloud
+# Setting Up a Device on the relayr Cloud
 
-To make an interaction between Alexa/SlackBot and the kettle possible - we set up a device in the cloud to which both Alexa/SlackBot and the Edison Intel board can communicate. 
+## Introduction
 
-
+To make an interaction between Alexa/SlackBot and the kettle possible - we set up a device in the cloud to which both Alexa/SlackBot and the Edison Intel board can communicate.
 
 ![schema](assets/cloud.png)
 
-
-
-### Create a virtual "kettle" device on the Relayr cloud
+## Creating a "Virtual Kettle"
 
 We need to create a devide on the relayr cloud for Alexa/our SlackBot to send triggers to. This means: instead of a sensor sending data input to this device on the relayr dashboard - the data input will come from Alexa/our SlackBot. 
 
-##### Step 1: Create a custom model
+### Step #1: Create a custom model
 
 Since it is not a real device - we set up a custom model. Login to your [relayr developer account](https://developer.relayr.io), go to the tab "models" on the left side. Click "add new model", click on the + sign in the "readings" box and enter the following:
 
@@ -20,7 +18,7 @@ Since it is not a real device - we set up a custom model. Login to your [relayr 
 
 We named our model _Kettle_ and set the meaning to _kettle_ as well, you can of course choose any name you like (but make sure to change the python scripts accordingly later). For the Value type, choose **Boolean** (we will be sending True's and Falses). You will have to fill in a website as well for some reason - this can be a fake URL as well (www.yeah.yeah for example). When you're done click **save model**.
 
-##### Step 2: Create a device
+### Step #2: Create a Device
 
 Once you saved your model, you can click on _create device_ and click _finish_ right away in the next step without changing anything. Give your device a name and now your device should be created.
 

@@ -1,7 +1,16 @@
+These docs are a **work in progress**, come back soon for more *swag*!
+
+--
+
 # Teabot
+
 ### By Team _Brand New Kettle-hack_
 
 *A fun weekend project by Emelie Hofland and Jaime González-Arintero. Created during the [Intel IoT Solutions Hackathon in Fürth](https://iotevents.intel.com/Furth2017/), on March 11 - 12, 2017.*
+
+Pictures and additional media of the **project presentation at the hackathon** can be found in [this folder](./hackathon).
+
+If you are wondering _why the hack_ would someone use **such name for a team**, you may find the answer [here](https://www.youtube.com/watch?v=SYVLxLvdhpY). 
 
 ## Introduction
 
@@ -11,11 +20,11 @@ After **months** of extensive market research, we discovered that **no-one ever*
 
 Okay, this may not be _fully_ true. There are _a few_ Internet-connected kettles out there. But hey, never enough!
 
-These docs are a **work in progress**, come back soon for more *swag*.
+## Disclaimer: Working with Electrical Equipment
 
-Meanwhile, you can listen to the song that inspired us...
+Your safety is your own responsibility, including proper use of equipment and safety gear, and determining whether you have adequate skill and experience. Power tools, electricity, and other resources that may be used in this project are dangerous, unless used properly and with adequate precautions, including safety gear. Before proceeding, first read the basic [at-home electrical safety tips](https://www.bchydro.com/safety-outages/electrical-safety/safety-at-home/electrical-safety-tips.html).
 
-[![ScreenShot](http://img.youtube.com/vi/SYVLxLvdhpY/0.jpg)](https://www.youtube.com/watch?v=SYVLxLvdhpY)
+This project involves working with mains voltage, and the modification of a home appliance. **Only a qualified person may perform wirings of electrical equipment. Improper operations may place the user at serious risk.**
 
 ## Requirements
 
@@ -30,13 +39,11 @@ The following hardware is required:
 
 A computer is required to connect the Edison board for flashing and configuration.
 
-## Disclaimer: Working with Electrical Equipment
+## Intel® Edison Setup
 
-Your safety is your own responsibility, including proper use of equipment and safety gear, and determining whether you have adequate skill and experience. Power tools, electricity, and other resources that may be used in this project are dangerous, unless used properly and with adequate precautions, including safety gear. Before proceeding, first read the basic [at-home electrical safety tips](https://www.bchydro.com/safety-outages/electrical-safety/safety-at-home/electrical-safety-tips.html).
+First of all, assemble the Arduino Expansion Board according to the directions in the [Intel® Edison guide](https://software.intel.com/en-us/node/628221), and make sure that your board looks like this:
 
-This project involves working with mains voltage, and the modification of a home appliance. **Only a qualified person may perform wirings of electrical equipment. Improper operations may place the user at serious risk.**
-
-## Intel Edison Setup
+![Edison assembled board](./assets/edison_assembled_board.jpg)
 
 -----WIP----
 
@@ -47,18 +54,6 @@ This project involves working with mains voltage, and the modification of a home
 ## "Teabot" for Slack
 
 -----WIP----
-
-## Presenting the Project
-
-Here we are presenting the project at the hackathon!
-
-![](./assets/presentation_teabot.jpg)
-
-![](./assets/presentation_emelie.jpeg)
-
-![](./assets/presentation_jaime.jpeg)
-
-![](./assets/presentation_general.jpg)
 
 ## License
 

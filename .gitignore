@@ -43,4 +43,5 @@ temp/*
 temp*
 assets/clean_images/
 assets/raw_images/
+hackathon/assets/raw_images/
 .idea/
