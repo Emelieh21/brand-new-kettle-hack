@@ -20,6 +20,8 @@ After **months** of extensive market research, we discovered that **no-one ever*
 
 Okay, this may not be _fully_ true. There are _a few_ Internet-connected kettles out there. But hey, never enough!
 
+Anyway... in this repository we explain **how to hack a kettle, to it can be turned on and off just using voice commands** (via the [Amazon Alexa](https://developer.amazon.com/alexa) service), **or "chatting" with a bot** (via [Slack](https://slack.com)). It's divided in different parts or modules, and not all are required to make it work, so in the future they can be integrated within other projects.
+
 ## Disclaimer: Working with Electrical Equipment
 
 Your safety is your own responsibility, including proper use of equipment and safety gear, and determining whether you have adequate skill and experience. Power tools, electricity, and other resources that may be used in this project are dangerous, unless used properly and with adequate precautions, including safety gear. Before proceeding, first read the basic [at-home electrical safety tips](https://www.bchydro.com/safety-outages/electrical-safety/safety-at-home/electrical-safety-tips.html).
@@ -42,9 +44,56 @@ A computer is required to connect the Edison board for flashing and configuratio
 
 ## Intel® Edison Setup
 
+### Hardware Assembly
+
 First of all, assemble the Arduino Expansion Board according to the directions in the [Intel® Edison guide](https://software.intel.com/en-us/node/628221), and make sure that your board looks like this:
 
 ![Edison assembled board](./assets/edison_assembled_board.jpg)
+
+### Initial Configuration
+
+Once done, configure your Edison board using the official **Setup Tool (*aka.* Intel® Edison Board Configuration Tool)**. Simply follow the online instructions according to your operating system:  
+
+* Windows: [64-bit](https://software.intel.com/en-us/get-started-edison-windows-step2) | [32-bit](https://software.intel.com/en-us/get-started-edison-windows-32-step2)
+* [Mac OS X](https://software.intel.com/en-us/get-started-edison-osx-step2)
+* [Linux](https://software.intel.com/en-us/get-started-edison-linux-step2)
+
+Once done, the Setup Tool should look like the screenshot below. **Copy the IP address of the board** shown at the bottom of the tool, since it will be required for the next step.
+
+![IP Address](./assets/edison-board-configuration-tool.png)
+
+
+### SSH'ing into the Board
+
+When done with firmware flashing and the basic configurations of the board, we can SSH into it and do further configurations by using its Linux shell. As said before, the Edison's IP address is found in the WiFi section of the **Intel® Edison Board Configuration Tool** (or Setup Tool).
+
+Open the terminal, and run the following command:  
+`$ ssh root@<EDISON-IP-ADDRESS>`
+
+If you're using Windows, [PuTTY](http://www.putty.org) will probably be your best option.
+
+When prompted for a password use the one that was set in the security settings of the Intel Edison Board Configuration Tool. If everything worked properly, we should now be logged in to the board as **root**.
+
+Before running the script that controls the relay (turning the kettle on and off), we'll have to install all the necessary libraries and Python dependencies.
+
+### Clone the Repository
+
+Once you are logged in the Intel Edison and are able to interact with its Linux shell, you can clone the git repository by executing the following command:
+
+`$ git clone https://github.com/relayr/edison`
+
+### Installing the Libmraa Library
+
+The default firmware (Linux Yocto image) comes with Python 2.7 already installed, so you could start running scripts right away. However, if you wish to interact with the GPIOs of the Intel Edison breakout board, you'll have to install the [Libmraa](https://github.com/intel-iot-devkit/mraa) library. As mentioned in the linked repository, you can install it through the [OPKG package manager](https://wiki.openwrt.org/doc/techref/opkg) by executing the following three commands in the Linux shell of the Edison board:
+
+```shell
+$ echo 'src mraa-upm http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586' > /etc/opkg/mraa-upm.conf
+$ opkg update
+$ opkg install mraa
+```
+
+The first line adds the source of the `libmraa` repository to the package manager source list, the second one updates the existing [opkg](https://en.wikipedia.org/wiki/Opkg) packages, and the last one
+installs the `libmraa` package.
 
 -----WIP----
 
