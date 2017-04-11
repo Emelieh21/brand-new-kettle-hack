@@ -20,7 +20,7 @@ After **months** of extensive market research, we discovered that **no-one ever*
 
 Okay, this may not be _fully_ true. There are _a few_ Internet-connected kettles out there. But hey, never enough!
 
-Anyway... in this repository we explain **how to hack a kettle, to it can be turned on and off just using voice commands** (via the [Amazon Alexa](https://developer.amazon.com/alexa) service), **or "chatting" with a bot** (via [Slack](https://slack.com)). It's divided in different parts or modules, and not all are required to make it work, so in the future they can be integrated within other projects.
+Anyway... in this repository we explain **how to hack a kettle, so it can be turned on and off using voice commands** (via the [Amazon Alexa](https://developer.amazon.com/alexa) service), **or "chatting" with a bot** (via [Slack](https://slack.com)). It's divided into different parts or modules, and not them all are required to make it work, so in the future they can be integrated in other projects.
 
 ## Disclaimer: Working with Electrical Equipment
 
@@ -80,7 +80,7 @@ Before running the script that controls the relay (turning the kettle on and off
 
 Once you are logged in the Intel Edison and are able to interact with its Linux shell, you can clone the git repository by executing the following command:
 
-`$ git clone https://github.com/relayr/edison`
+`$ git clone https://github.com/Emelieh21/brand-new-kettle-hack.git`
 
 ### Installing the Libmraa Library
 
