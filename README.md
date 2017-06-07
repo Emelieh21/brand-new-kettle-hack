@@ -70,7 +70,7 @@ When done with firmware flashing and the basic configurations of the board, we c
 Open the terminal, and run the following command:  
 `$ ssh root@<EDISON-IP-ADDRESS>`
 
-If you're using Windows, [PuTTY](http://www.putty.org) will probably be your best option.
+If you're using Windows, [PuTTY](http://www.putty.org) will probably be your best option. You may find a [good tutorial here](https://mediatemple.net/community/products/dv/204404604/using-ssh-in-putty-).
 
 When prompted for a password use the one that was set in the security settings of the Intel Edison Board Configuration Tool. If everything worked properly, we should now be logged in to the board as **root**.
 
